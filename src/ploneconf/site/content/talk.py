@@ -35,7 +35,7 @@ class ITalk(model.Schema):
         value_type=schema.Choice(
             values=['Beginner', 'Advanced', 'Professional'],
         ),
-        required=False,
+        required=True,
     )
 
     speaker = schema.TextLine(
