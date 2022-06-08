@@ -23,13 +23,13 @@
 
 
   <genericsetup:registerProfile
-      name="default"
-      title="ploneconf.site"
-      directory="profiles/default"
-      description="Installs the ploneconf.site add-on."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.post_install"
-      />
+    name="default"
+    title="ploneconf.site"
+    directory="profiles/default"
+    description="Installs the ploneconf.site add-on."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    post_handler=".setuphandlers.post_install"
+    />
 
   <genericsetup:registerProfile
       name="uninstall"
