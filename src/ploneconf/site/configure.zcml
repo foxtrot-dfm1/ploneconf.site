@@ -17,6 +17,8 @@
 
   <include package=".behaviors" />
 
+  <include package=".events" />
+
   <include file="permissions.zcml" />
 
   <include file="upgrades.zcml" />
