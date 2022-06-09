@@ -31,7 +31,7 @@
 Backend for plone6 training (https://training.plone.org/5/mastering-plone/index.html)
 ==========
 
-Includes all chapters up to 50, exclude 38,39
+Includes all chapters up to 49. The chapter 50 is implemented on the branch "chapter_50", exclude 38,39
 ==========
 
 
