@@ -28,8 +28,7 @@
 
 
 
-Backend for plone6 training (https://training.plone.org/5/mastering-plone/index.html)
-Includes all chapters up to 49. exclude 38,39.
+Backend for plone6 training (https://training.plone.org/5/mastering-plone/index.html) Includes all chapters up to 49. exclude 38,39.
 ==========
 
 The chapters 50-52 are implemented on the branch "chapter_50", cheackout guide:
