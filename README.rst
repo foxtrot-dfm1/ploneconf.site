@@ -29,11 +29,17 @@
 
 
 Backend for plone6 training (https://training.plone.org/5/mastering-plone/index.html)
+Includes all chapters up to 49. exclude 38,39.
 ==========
 
-Includes all chapters up to 49. The chapter 50 is implemented on the branch "chapter_50", exclude 38,39
+The chapters 50-52 are implemented on the branch "chapter_50", cheackout guide:
 ==========
 
+Steps:
+--------
+- after plone projects buildout cd to src/ploneconf.site directory
+- git fetch origin chapter_50 && git checkout chapter_50
+- return project root and run the instance
 
 ==============
 ploneconf.site
