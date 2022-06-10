@@ -2,7 +2,7 @@
 <object name="talk" meta_type="Dexterity FTI" i18n:domain="plone"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <property name="title" i18n:translate="">Talk</property>
- <property name="description" i18n:translate=""></property>
+ <property name="description" i18n:translate="">None</property>
  <property name="icon_expr">string:${portal_url}/document_icon.png</property>
  <property name="factory">talk</property>
  <property name="add_view_expr">string:${folder_url}/++add++talk</property>
@@ -12,25 +12,25 @@
  <property name="filter_content_types">True</property>
  <property name="allowed_content_types"/>
  <property name="allow_discussion">False</property>
- <property name="default_view">view</property>
+ <property name="default_view">talkview</property>
  <property name="view_methods">
+  <element value="talkview"/>
   <element value="view"/>
  </property>
  <property name="default_view_fallback">False</property>
  <property name="add_permission">cmf.AddPortalContent</property>
- <property name="klass">ploneconf.site.content.talk.Talk</property>
- <property name="schema">ploneconf.site.content.talk.ITalk</property>
+ <property name="klass">plone.dexterity.content.Container</property>
  <property name="behaviors">
   <element value="plone.dublincore"/>
   <element value="plone.namefromtitle"/>
-  <element value="plone.versioning" />
   <element value="ploneconf.featured"/>
-  <element value="plone.eventbasic"/>
   <element value="plone.versioning" />
+  <element value="plone.eventbasic"/>
   <element value="starzel.voting" />
  </property>
+ <property name="schema"></property>
  <property name="model_source"></property>
- <property name="model_file"></property>
+ <property name="model_file">ploneconf.site.content:talk.xml</property>
  <property name="schema_policy">dexterity</property>
  <alias from="(Default)" to="(dynamic view)"/>
  <alias from="edit" to="@@edit"/>

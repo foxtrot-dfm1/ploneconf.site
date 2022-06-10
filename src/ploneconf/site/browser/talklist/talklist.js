@@ -21,7 +21,7 @@ var app = new Vue({
                  {'Content-type':'application/json',
                   'Accept':'application/json'}}).
         then(function(data, status, headers, config){
-          localStorage.setItem('jwtoken', data.token);
+          localStorage.setItem('jwtoken', data.body.token);
         }, function(error){
           alert('Could not log you in');
         });

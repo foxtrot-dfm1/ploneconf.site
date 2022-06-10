@@ -44,7 +44,7 @@
       <description></description>
       <required>False</required>
       <title>Room</title>
-      <vocabulary>ploneconf.site.vocabularies.Rooms</vocabulary>
+      <vocabulary>ploneconf.rooms</vocabulary>
     </field>
     <field name="speaker" type="zope.schema.TextLine">
       <description>Name (or names) of the speaker</description>
