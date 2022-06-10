@@ -38,7 +38,7 @@ Steps:
 --------
 - after plone projects buildout cd to src/ploneconf.site directory
 - git fetch origin chapter_50 && git checkout chapter_50
-- return project root and run the instance
+- return to project root and run the instance
 
 ==============
 ploneconf.site
